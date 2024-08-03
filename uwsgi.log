@@ -1,0 +1,117 @@
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 30 09:25:31 2024] ***
+compiled with version: Ubuntu Clang 18.1.3 (1) on 30 July 2024 06:25:00
+os: Linux-6.5.0-1022-azure #23~22.04.1-Ubuntu SMP Thu May  9 17:59:24 UTC 2024
+nodename: codespaces-ddcb80
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /workspaces/154871934/poultry_farm_management
+detected binary path: /workspaces/154871934/poultry_farm_management/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /workspaces/154871934/poultry_farm_management
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /workspaces/154871934/poultry_farm_management/uwsgi.sock fd 3
+Python version: 3.12.4 (main, Jun 24 2024, 14:57:49) [GCC 13.2.0]
+PEP 405 virtualenv detected: /workspaces/154871934/venv
+Set PythonHome to /workspaces/154871934/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x614b0944fd78
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'poultry_farm.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32826)
+spawned uWSGI worker 1 (pid: 32827, cores: 1)
+spawned uWSGI worker 2 (pid: 32828, cores: 1)
+spawned uWSGI worker 3 (pid: 32829, cores: 1)
+spawned uWSGI worker 4 (pid: 32830, cores: 1)
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 30 10:49:22 2024] ***
+compiled with version: Ubuntu Clang 18.1.3 (1) on 30 July 2024 06:25:00
+os: Linux-6.5.0-1022-azure #23~22.04.1-Ubuntu SMP Thu May  9 17:59:24 UTC 2024
+nodename: codespaces-ddcb80
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /workspaces/154871934/poultry_farm_management
+detected binary path: /workspaces/154871934/poultry_farm_management/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /workspaces/154871934/poultry_farm_management
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /workspaces/154871934/poultry_farm_management/uwsgi.sock fd 3
+Python version: 3.12.4 (main, Jun 24 2024, 14:57:49) [GCC 13.2.0]
+PEP 405 virtualenv detected: /workspaces/154871934/venv
+Set PythonHome to /workspaces/154871934/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x6307194ffd78
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'poultry_farm.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14091)
+spawned uWSGI worker 1 (pid: 14092, cores: 1)
+spawned uWSGI worker 2 (pid: 14093, cores: 1)
+spawned uWSGI worker 3 (pid: 14094, cores: 1)
+spawned uWSGI worker 4 (pid: 14095, cores: 1)
+Gracefully killing worker 4 (pid: 14095)...
+Gracefully killing worker 1 (pid: 14092)...
+Gracefully killing worker 2 (pid: 14093)...
+Gracefully killing worker 3 (pid: 14094)...
+...gracefully killing workers...
+worker 4 buried after 0 seconds
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /workspaces/154871934/poultry_farm_management
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/workspaces/154871934/poultry_farm_management/uwsgi.sock)
+running /workspaces/154871934/poultry_farm_management/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 30 11:35:05 2024] ***
+compiled with version: Ubuntu Clang 18.1.3 (1) on 30 July 2024 06:25:00
+os: Linux-6.5.0-1022-azure #23~22.04.1-Ubuntu SMP Thu May  9 17:59:24 UTC 2024
+nodename: codespaces-ddcb80
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /workspaces/154871934/poultry_farm_management
+detected binary path: /workspaces/154871934/poultry_farm_management/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /workspaces/154871934/poultry_farm_management
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /workspaces/154871934/poultry_farm_management/uwsgi.sock fd 3
+Python version: 3.12.4 (main, Jun 24 2024, 14:57:49) [GCC 13.2.0]
+PEP 405 virtualenv detected: /workspaces/154871934/venv
+Set PythonHome to /workspaces/154871934/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x63b8fb1a7d78
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'poultry_farm.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 14091)
+spawned uWSGI worker 1 (pid: 31450, cores: 1)
+spawned uWSGI worker 2 (pid: 31451, cores: 1)
+spawned uWSGI worker 3 (pid: 31452, cores: 1)
+spawned uWSGI worker 4 (pid: 31453, cores: 1)
