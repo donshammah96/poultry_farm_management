@@ -27,6 +27,17 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#DEBUG = False
+#ALLOWED_HOSTS = ['yourdomain.com']
+
+# Security settings
+#SECRET_KEY = os.environ["django-insecure-d*)tkl)_%w)by0c6r7v%w+bt8m^ac67p!ak+$-e4_q3&e@t*2@"]
+#SECURE_SSL_REDIRECT = True
+#SESSION_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
+#X_FRAME_OPTIONS = 'DENY'
+#SECURE_BROWSER_XSS_FILTER = True
+#SECURE_CONTENT_TYPE_NOSNIFF = True
 
 # settings.py
 
@@ -57,7 +68,7 @@ ROOT_URLCONF = "poultry_farm.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        'DIRS': [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -83,6 +94,16 @@ DATABASES = {
     }
 }
 
+#DATABASES = {
+    #'default': {
+        #'ENGINE': 'django.db.backends.postgresql',
+        #'NAME': 'yourdbname',
+        #'USER': 'yourdbuser',
+        #'PASSWORD': 'yourdbpassword',
+        #'HOST': 'localhost',
+        #'PORT': '5432',
+    #}
+#}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators

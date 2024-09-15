@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FARM</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'farm/style.css' %}">
+    .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    }
+
+    .button:hover {
+    background-color: #3e8e41
+    }
+
+    .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    }
+    </style>
+</head>
+
+<body>
+    <h1>API Root</h1>
+    <a href="{% url 'vendors-list' %}" class="button">Vendors</a>
+    <a href="{% url 'vendor-detail' pk=1 %}" class="button">Vendor Detail</a>
+    <a href="{% url 'batch-detail' pk=1 %}" class="button">Batch Detail</a>
+    <a href="{% url 'inventory-list' %}" class="button">Inventory</a>
+    <a href="{% url 'inventory-detail' pk=1 %}" class="button">Inventory Detail</a>
+    <a href="{% url 'customers-list' %}" class="button">Customers</a>
+    <a href="{% url 'customer-detail' pk=1 %}" class="button">Customer Detail</a>
+    <a href="{% url 'orders-list' %}" class="button">Orders</a>
+    <a href="{% url 'order-detail' pk=1 %}" class="button">Order Detail</a>
+    <a href="{% url 'rewards-list' %}" class="button">Rewards</a>
+    <a href="{% url 'reward-detail' pk=1 %}" class="button">Reward Detail</a>
+    <a href="{% url 'sales-list' %}" class="button">Sales</a>
+    <a href="{% url 'sale-detail' pk=1 %}" class="button">Sale Detail</a>
+</body>
+
+</html>

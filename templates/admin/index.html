@@ -1,0 +1,23 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h1>{{ index_title }}</h1>
+<div id="content-main">
+    {% if app_list %}
+        <ul id="app-list">
+            {% for app in app_list %}
+                <li>
+                    <a href="{{ app.app_url }}">{{ app.name }}</a>
+                    <ul>
+                        {% for model in app.models %}
+                            <li><a href="{{ model.admin_url }}">{{ model.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No apps are available.</p>
+    {% endif %}
+</div>
+{% endblock %}

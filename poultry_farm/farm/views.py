@@ -2,9 +2,11 @@ from django.shortcuts import render, get_object_or_404
 from rest_framework import viewsets
 from .models import Vendor, Batch, Inventory, Customer, Order, Reward, Sale
 from .serializers import VendorSerializer, BatchSerializer, InventorySerializer, CustomerSerializer, OrderSerializer, RewardSerializer, SaleSerializer
+from rest_framework.decorators import api_view
 
-
-# Django template views
+@api_view(['GET'])
+def custom_api_root(request, format=None):
+    return render(request, 'farm/api_root.html')
 
 def vendors_list(request):
     vendors = Vendor.objects.all()
